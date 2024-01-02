@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<p id="sthita">Sthita</p>
+	<p class="welcome">pragnya</p>
+	<p class="welcome">pragnya 1</p>
+    <p class="welcome">pragnya 2</p>
+
+    <ul><li>Like</li>
+    	<li>share</li>
+    	<li>suscribe</li></ul>
+
+
+  <!--   to acces the children of a body -->
+  <!-- ---------------------------------------------- -->
+  <script type="text/javascript">
+  	var child=document.body.children;
+  	console.log(child);
+
+  	/*add a new child in a body
+  	----------------------------------*/
+  	var para=document.createElement("p"); // because i want to add a p tag.
+
+  	var textnode=document.createTextNode("This is a new para.");
+    para.appendChild(textnode);
+    console.log(para);
+
+    document.body.appendChild(para);
+
+
+   /* how to acces the first and the last child
+    ----------------------------------------------*/
+    var list=document.querySelector("ul");
+    console.log(list);
+
+    console.log(list.firstChild); // to get the first child
+    console.log(list.lastChild);// to get the last child
+
+
+    /*how to get the sibling
+    -------------------------------*/
+    var firstsibling=sthita.nextElementSibling;// by using the id
+    var secondsibling=sthita.nextElementSibling.nextElementSibling;
+    console.log(firstsibling);
+    console.log(secondsibling);
+
+
+    /*how to get the parent
+    --------------------------------*/
+    console.log(list.parentNode); // list is ul and the parentnode of ul is body.
+  </script>
+</body>
+</html>

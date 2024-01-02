@@ -1,0 +1,22 @@
+.flex-container{
+	background-color: indianred;
+	display: flex;
+    height: 400px;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+    align-content: stretch; /* it is by dafault*/
+    align-content: space-between;
+    align-content: space-around;
+    align-content: flex-start;
+    align-content: flex-end;
+
+}
+.flex-child{
+	background-color: wheat;
+	margin: 20px;
+	padding: 20px;
+
+	width: 100px;
+	text-align: center;
+}

@@ -1,0 +1,9 @@
+#bg{
+	background-color: yellow;
+	background-image: url("images/next.png"); /* next.png is a tranparent image*/
+	/* idhar actually ek tranparent image use karna he but ye jo image maine 
+	use kiya he wo traparent nahin he */
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}

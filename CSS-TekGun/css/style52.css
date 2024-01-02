@@ -1,0 +1,43 @@
+#wrapper{
+	padding: 20px;
+	margin: 20px;
+	background-color: yellow;
+	/*transform:matrix(scaleX(),skewY(),skewX()scaleY(),translateX(),
+		translateY());*/
+		/*margin: 100px;*/
+		/*transform: matrix(1,-0.2,0,1,0,0);*/
+}
+a{
+	text-decoration: none;
+	background-color: lightcoral;
+	padding: 10px 20px;
+	color: white;
+	/*transform: translate(50px,50px); */ /* from x-axis, from y-axis*/
+	/*display: block;*/
+	/*display: inline-block;*/
+}
+a:hover{
+	/*display: inline-block;*/
+	/*transform: translate(50px,50px);*/
+	/*transform: rotate(20deg);*/
+	/*transform: rotate(-2deg);*/
+	/*transform: rotate(-20deg);*/
+	/*transform: scale(2,3);*/  /*height becomes double, width becomes triple*/
+	/*transform: scale(0.8,0.4);*/ 
+	/*transform: scaleX(2);*/
+	/*transform: scaleY(3);*/
+	/*transform: scaleZ(2);*/  /* i have doubt in this section*/
+	/*transform: skew(20deg,10deg);*/
+	/*transform: skewX(30deg);*/
+	/*transform: skewY(30deg);*/
+
+	/* now all the transforms were done from the center*/
+	/* suppose u want to rotate or skew from any other point*/
+	/* then we will use transform-origin */
+
+	/*transform-origin: 0% 100%;*/
+
+
+	/*transform: matrix(scaleX(),skewY(),skewX()scaleY(),translateX(),
+		translateY());*/
+}

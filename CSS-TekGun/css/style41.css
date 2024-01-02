@@ -1,0 +1,36 @@
+img{
+	border: 1px solid red;
+	height: 200px;
+	width: 700px;
+
+
+	/* now after givig the user defined height and width to the image
+	 the aspect ratio of the image changes*/
+
+
+    /* use of the object-fit*/
+    /*------------------------------------*/
+	object-fit: contain;
+	/* it keeps the aspect ratio same 
+	but due to this some space of the image is left blank*/
+
+
+	object-fit: fill;
+	/* its main moto is not to leave any empty space in the image*/
+	/* it do not care about the aspect ratio*/
+
+
+	/*object-fit: cover;*/
+	/* here the aspect ratio is maintained  as well as there is no empty space 
+	in the image but some part of the image do not/ may not appear*/
+
+
+    /*object-fit: cover;*/
+/*object-position: top;*/  /* here only the top part of the image is visible*/
+/*object-position: bottom;*//*here only the bottom part of the image is visible*/
+
+
+    /*object-fit: contain;*/
+   /* object-position: left;*/
+    /*object-position: right;*/
+}

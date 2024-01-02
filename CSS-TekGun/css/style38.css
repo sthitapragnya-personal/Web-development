@@ -1,0 +1,40 @@
+:root{   /* suppose you use the var() function then u have to use :root{} */
+	/*--primary-color:teal;
+	--btn-color:blueviolet;
+	--text-color:white;*/
+
+
+	--primary-color:red;
+	--btn-color:lightgreen;
+	--text-color:black;
+}
+
+#function{
+	background-color: teal;
+	height: 200px;
+
+	/* use of calc()*/
+	/*----------------------------------*/
+	width: calc(100%-200px); 
+	/* here the white space is fixed and the width decreases even when 
+	the browser size decreases*/
+
+
+	/*use of var()*/
+	/*----------------------*/
+	background-color: var(--primary-color);
+}
+
+a{
+	padding: 10px 30px;
+	margin: 20px;
+	background-color: blueviolet;
+	color: white;
+	text-decoration: none;
+
+
+	/*use of var()*/
+	/*----------------------*/
+	background-color: var(--btn-color);
+	color: var(--text-color);
+}

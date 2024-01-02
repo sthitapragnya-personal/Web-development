@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function DeleteClick(){
+            flag=confirm("delete the data\nthe data will be deleted\nare you sure?");
+            if(flag==true){
+                 document.querySelector("p").innerHTML="<font color='blue'>data succesfully deleted</font>"
+            }
+            else{
+                document.querySelector("p").innerText="<font color='blue'>data succesfully deleted</font>"
+
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="DeleteClick()">click</button>
+    <p align="center">hello dear</p>
+</body>
+</html>

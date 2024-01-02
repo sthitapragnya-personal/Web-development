@@ -1,0 +1,44 @@
+html{
+	font-size: 14px;  /* note it is by deafult 16px*/
+}
+#parent{
+	border: 1px solid red;
+	width: 10cm;
+	width: 20cm;
+	/*width: 100mm;*/
+	/*width: 5in;*/
+	/*width: 500px;*/
+	/*width: 500pt;*/
+	/*width: 500pc;*/
+
+	/*width: 800px;*/
+	height: 50vh;   /* means always it is 50% of the view port*/
+	width: 50vw;  /* means always it is 50% of the view port*/
+
+
+     /*font-size: 20px;*/
+
+     /*font-size: 4rem;*/
+     font-size: 20px;
+
+
+     /* suppose we want to make a responsive font then*/
+     /*font-size: 4vw;*/
+     /*font-size: 4vh;*/
+}
+
+#child{
+	border: 1px solid blue;
+	width: 800px;
+	width: 50%;
+
+   font-size: 2em;  
+   /*font-size: 1em;*/
+   /*font-size: 4em;*/
+   /*font-size: 0.5em;*/
+
+
+   /*font-size: 2rem;*/
+
+   /*font-size: 2em; */  
+}

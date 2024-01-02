@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function ChangeCase(){
+            var username=document.getElementById("UserName").value;
+            document.getElementById("UserName").value=username.toUpperCase();
+            document.getElementById("UserName").style.color="red";
+
+        }
+        function SubmitClick(){
+            var username=document.getElementById("UserName").value;
+            var userError=document.getElementById("UserError");
+            if(username="") {
+                usererror.innerHTML="username required".fontcolor('red').bold().italics();
+            } else {
+                document.write(`hello ${username}`); //this is the use of backtics
+            }
+        }
+    </script>
+</head>
+<body>
+    <dl>
+        <dt>username</dt>
+        <dd>
+            <input type="text" onblur="ChangeCase()" placeholder="block letters only" id="UserName">
+        </dd>
+        <dd id="UserError"></dd>
+    </dl>
+    <button onclick="SubmitClick()">submit</button>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <script type="text/javascript">
+         function SubmitClick(){
+            var username = document.getElementById("UserName").value;
+            var userError = document.getElementById("userError");
+
+            if(username=="") {
+               userError.innerHTML = "User Name Required".fontcolor('red').bold().italics();
+            } else {
+               document.write(`Hello ! ${username}`);
+            }
+         }
+         function ChangeCase(){
+            var username = document.getElementById("UserName").value;
+            document.getElementById("UserName").value = username.toUpperCase();
+            document.getElementById("UserName").style.color = "red";
+         }
+   </script>
+</head>
+<body>
+   <dl>
+      <dt>User Name</dt>
+      <dd><input type="text" onblur="ChangeCase()" placeholder="Block Letters Only" id="UserName"></dd>
+      <dd id="userError"></dd>
+   </dl>
+   <button onclick="SubmitClick()">Submit</button>
+</body>
+</html> -->

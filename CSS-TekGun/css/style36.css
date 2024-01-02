@@ -1,0 +1,45 @@
+table{
+	border: 1px solid black;
+	border-collapse: collapse;  /* to collapse all the borders*/
+
+
+	border-collapse: separate; /*not to collapse the borders*/ 
+	 /*it is by default*/
+
+
+	border-spacing: 20px;  /* it the space between each cell*/
+	/*border-collapse: 10px 15px;*/
+	border-collapse: 10px 20px 30px;
+	/*border-collapse: 10px 20px 30px 400px;*/
+
+
+	/*empty-cells: hide;*/  /* to hide the empty cells*/
+}
+caption{
+	border: 1px solid black;
+	caption-side: bottom;  /* to bring the caption to the bottom of the table*/
+	caption-side: top;  /* it is by default*/
+}
+tr{
+	border: 1px solid black;  /* it doesnt take border*/
+
+}
+th{
+    border: 1px solid black;
+    height: 50px;
+    padding: 20px;
+    text-align: right;
+
+}
+td{
+    border: 1px solid black;
+    height: 35px;
+    padding: 10px;
+    text-align: right;
+    text-align: left;
+    text-align: center;
+    height: 60px;
+    vertical-align: bottom;
+    vertical-align: top;
+    /*vertical-align: middle;*/
+}

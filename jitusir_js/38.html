@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function VerifyName(){
+            var username = document.getElementById("UserName").value;
+            var userError = document.getElementById("userError");
+            if(username.length<4) {
+                userError.innerHTML= "Name min 4 chars required".fontcolor('red');
+            } else {
+                if(username.charCodeAt(0)>=65 && username.charCodeAt(0)<=90) {
+                    userError.innerHTML = "";
+                } else {
+                    userError.innerHTML = "Name must start with uppercase letter".fontcolor('gold');
+                }
+            }
+        }
+        function VerifyCard(){
+            var card = document.getElementById("Card").value;
+            var cardPic = document.getElementById("cardPic");
+
+            if(card.startsWith("44")) {
+                cardPic.src = "../public/images/visa.png";
+            } else if(card.startsWith("55")) {
+                cardPic.src = "../public/images/master.png";
+            } else {
+                cardPic.src="";
+                cardPic.alt="Invalid";
+            }
+
+        }
+        function VerifyEmail(){
+            var email = document.getElementById("Email").value;
+            var emailError = document.getElementById("emailError");
+            var dotPos = email.lastIndexOf(".");
+            var country = email.slice(dotPos);
+           
+
+            if(email.indexOf("@")==-1){
+                emailError.innerHTML = "Invalid Email: Please include @".fontcolor('red');
+            } else {
+                if(country==".in") {
+                    emailError.innerHTML = "";
+                } else {
+                    emailError.innerHTML = "Only Indian Users Allowed".fontcolor('red');
+                }
+               /* if(email.endsWith("outlook.com")) {
+                emailError.innerHTML = "";
+                } else {
+                    emailError.innerHTML = "Invalid : Only outlook address allowed".fontcolor('red');
+                } */
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body >
+    <dl>
+        <dt>User Name</dt>
+        <dd><input type="text" onblur="VerifyName()" id="UserName"></dd>
+        <dd id="userError"></dd>
+        <dt>Your Card Number</dt>
+        <dd ><input type="text" maxlength="16" placeholder="16 Digit Number" onblur="VerifyCard()" id="Card"><img  width="100" height="40" id="cardPic"></dd>
+        <dt>Your Windows Id</dt>
+        <dd><input type="text" onblur="VerifyEmail()" placeholder="your outlook id" id="Email"></dd>
+        <dd id="emailError"></dd>
+    </dl>
+</body>
+</html>

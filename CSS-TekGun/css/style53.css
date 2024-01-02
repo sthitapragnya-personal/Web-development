@@ -1,0 +1,37 @@
+/*
+it is the basic sysntax
+-------------------------------------------------
+->transform: perspective(300px) rotate3d();
+->perspective-origin: 50% 50%;
+
+*/
+
+#cover{
+	border: 2px solid red;
+	height: 200px;
+	width: 200px;
+	margin: 150px;
+
+}
+#content{
+  height: 200px;
+	width: 200px;
+	background-color: yellowgreen;
+	/*transform: perspective(300px) rotate3d(0,0,0,20deg);*/
+	/*transform: perspective(300px) rotate3d(50,0,0,20deg);*/
+	/*transform: perspective(300px) rotate3d(0,50,0,20deg);*/
+	/*transform: perspective(300px) rotate3d(0,0,50,20deg);*/
+	/*transform: perspective(300px) rotate3d(0,50,50,20deg);*/
+
+
+	/*transform: perspective(300px) translate3d(0px, 0px, 0px);*/
+	/*transform: perspective(300px) translate3d(50px, 0px, 0px);*/
+	/*transform: perspective(300px) translate3d(0px, 50px, 0px);*/
+	/*transform: perspective(300px) translate3d(0px, 0px, 50px); */ 
+	/* here the sixe increses*/
+    /*transform: perspective(300px) translate3d(0px, 0px, -50px);*/
+    /* here it shrinks */
+
+    /*transform: perspective(300px) translate3d(50px, 50px, 50px);*/
+
+}

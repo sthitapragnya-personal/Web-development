@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function showmessage(x,y){ // these are the formal arguments
+            x="123"+x;
+            y="456"+y;
+            document.write(x+" and "+y+"<br>");// prints the fa
+        }
+    </script>
+</head>
+<body>
+    <h2>
+        example on the formal and actual arguments
+    </h2>
+    <script>
+       let x="sthita"; // actual argument
+       let y="shubham"; //aa
+       document.write(x+" and "+y+"<br>"); // printing the actual argument
+       showmessage(x,y); // here it takes a copy of x and y(aa)
+       document.write(x+" and "+y+"<br>"); // prints the same value of x and y without any chages
+    </script>
+</body>
+</html>

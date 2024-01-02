@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="jquery-3.6.0.slim.min.js"></script> 
+	<!-- manually download -->
+	<!--  it doesn't requires network connection -->
+	<!--  it is comparatively slower -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--  it is the cdn link -->
+<!--  it requires network connection -->
+<!--  it is comparatively more faster -->
+
+</head>
+<body>
+
+	<div id="test" class="hi">
+		
+	</div>
+
+
+ <script type="text/javascript">
+	//this thing is done by using javascript 
+	/*document.getElementById('test').innerHTML="helo world by javascript";*/
+
+
+   /*jQuery(document).ready(function() {
+   	
+   });
+   */
+
+   $(document).ready(function() {
+   	  $("#test").text("hello world by jQuery 1");
+   });
+
+    $(document).ready(function() {
+   	  $(".hi").text("hello world by jQuery 2");
+   });
+
+   /* $(document).ready(function() {
+   	  $(.hi).text("hello world by jQuery 3");
+   });*/  // it is error as the class is not enclosed within " "  or ' '  .
+
+    /*$(document).ready(function() {
+   	  $(div).text("hello world by jQuery 4");
+   });*/  // it is error as the class is not enclosed within " "  or ' '  .
+
+    $(document).ready(function() {
+   	  $("div").text("hello world by jQuery 5");
+   });
+
+</script> 
+
+
+</body>
+</html>

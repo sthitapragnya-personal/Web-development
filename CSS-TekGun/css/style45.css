@@ -1,0 +1,39 @@
+#parent{
+  border: 1px solid red;
+  padding: 20px;
+  width: 50%;
+  display: inline-block;
+  margin: 100px;
+  /*position: relative;*/  /* this code line is used to make the parent positioned*/
+  height: 1000px;
+}
+#one{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  display: inline-block;
+}
+#two{
+ width: 100px;
+  height: 100px;
+    background-color: blue;
+     display: inline-block;
+     /*position: relative;*/
+     /*top: 50px; */ /* mane top ru 50px talaku khasila*/
+    /* left: 50px; */ /* au ethi left ru 50px right ade ghunchigala*/
+     /*right: 50px;*/
+
+    /* position: absolute;
+     top: 0px;
+     left: 0px;*/
+
+     position: fixed;
+     top: 0px;
+     right: 0px;
+}
+#three{
+ width: 100px;
+  height: 100px;
+    background-color: black;
+     display: inline-block;
+}

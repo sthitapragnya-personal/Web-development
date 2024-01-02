@@ -1,0 +1,54 @@
+1. Type selector
+-----------------------
+
+h1{
+	color:red;
+}
+
+
+
+2.id-selector
+--------------------
+
+#sthita{
+	color:red;
+}
+
+
+
+3.class selector
+-----------------------
+
+.sthita{
+	color:red;
+}
+
+
+
+4.pseudo-class  and pseudo-elements
+-----------------------------------------
+
+a:hover{
+	color:red;
+}
+
+
+p::first-line{
+	color:red;
+}
+
+
+
+5.Attribute selector
+---------------------------
+it is best explained in ui 8:30.
+
+
+
+6.Universal selectors
+-------------------------------
+*{
+	color:red;
+}
+
+

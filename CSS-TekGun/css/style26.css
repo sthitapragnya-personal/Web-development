@@ -1,0 +1,56 @@
+div{
+	border: 1px solid red;
+	/*text-align: center;*/
+
+	cursor: auto; /* it is by deafult*/
+	cursor: all-scroll;
+	cursor: cell;
+	cursor: copy;
+	cursor: col-resize;
+	cursor: text;
+	cursor: vertical-text;
+	cursor: pointer;
+	cursor: row-resize;
+	cursor: zoom-out;
+	cursor: zoom-in;
+	cursor: wait;
+	cursor: w-resize;
+	cursor: sw-resize;
+	cursor: se-resize;
+	cursor: s-resize;
+	cursor: row-resize;
+	cursor: progress;
+	cursor: not-allowed;
+	cursor: none;
+	cursor: no-drop;
+    cursor: copy;
+    cursor: crosshair;
+    cursor: default;
+    cursor: e-resize;
+    cursor: ew-resize;
+    cursor: grab;
+    cursor: grabbing;
+    cursor: help;
+    cursor: move;
+    cursor: n-resize;
+    cursor: ne-resize;
+    cursor: nesw-resize;
+    cursor: ns-resize;
+    cursor: nw-resize;
+    cursor: nwse-resize;
+    cursor: all-scroll;
+    cursor: alias;
+}
+div{
+	border: 1px solid green !important;  /* the !important is used to make
+	 it applicable*/
+	 /*border-color: blue !important;*/
+
+
+	 /* generally it is not recomended to use !important cause 
+	 we will be confused the next time we revisit the code  */
+
+	 background-color: red !important;
+	 background-color: blue;
+	 background-color: orange;
+}

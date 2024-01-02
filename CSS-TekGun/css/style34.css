@@ -1,0 +1,29 @@
+html{
+	background-image: linear-gradient(orange,white,orange);
+	background-repeat: no-repeat;
+	background-size: 1000px 1000px;
+}
+
+textarea{
+	resize: none;  /* means it is not resizable now*/
+}
+
+.overflow{
+	background-image: linear-gradient(black,pink);
+	color:silver;
+	border: 1px solid red;
+	width: 500px;
+	height: 300px;
+	/*min-width: 10px;
+	min-height: 20px;
+	max-width: 700px;
+	max-height: 500px;*/
+	overflow: auto;
+	resize: both; /* means it can is resizable in both 
+	horizontal and vertical dirextion*/
+
+	resize: horizontal;
+	resize: vertical;
+	
+
+}

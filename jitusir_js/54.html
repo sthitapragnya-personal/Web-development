@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function anotherfunction(){
+            document.write("pleasee give text <br>");
+        }
+        function showmessage(from,text=anotherfunction()){
+            document.write("both values given <br>");
+        }
+        showmessage("hi","bye");
+        showmessage("hi");
+    </script>
+</body>
+</html>

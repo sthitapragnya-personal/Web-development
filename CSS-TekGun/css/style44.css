@@ -1,0 +1,20 @@
+.display{
+	border: 1px solid black;
+	height: 100px;
+	width: 30%;
+	/*display: inline; */     /* convert into inline display*/
+	/*display: inline-block;*/    /*it is same as inline but it takes height 
+	and width*/
+    /*display: none; */ /* to remove the element*/
+}
+
+#div1{
+	/*display: none;*/
+
+	/*visibility: hidden;*/ /* it is used to make the element 
+	invisible but the elemet occupies its space there */
+}
+
+.anchor{
+	/*display: block; */ /* to display the inline elements into block level*/
+}

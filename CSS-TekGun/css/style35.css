@@ -1,0 +1,36 @@
+ul{
+    list-style-type: none;  /* no disks*/
+    list-style-type: decimal;  /* gives numbers to the list*/
+    list-style-type: circle;
+    list-style-type: cjk-ideographic;
+    list-style-type: square;
+
+
+
+    /*list- image*/
+    /*-------------------------*/
+    list-style-image: url(images/marker-2.gif);
+
+    /*https://www.photopea.com/*/
+    /* i have used this link of online photo-shop to 
+    channge the size of the image*/
+    list-style-image: url(images/113.jpg);
+
+}
+
+ol{
+   /*list-style: none;*/
+   /*list-style-type: lower-alpha;*/ /*a  b  c  d  e */ 
+   /*list-style-type: upper-alpha;*/  /* A  B  C  D  E */
+   /*list-style-type: lower-roman;*/ /*  i  ii  iii  iv */
+   /*list-style-type: upper-roman;*/  /*  I   II   III   IV */
+   /*list-style-type: decimal;*/  /*  1 2 3 4 5 */
+   /*list-style-type: decimal-leading-zero;*/  /*  01  02  03  04  05*/
+}
+
+li{
+	/*border: 1px solid black;*/
+	/* here the marker is by default present outside li */
+
+	/*list-style-position: inside;*/  /* here the marker comes inside the li*/
+}

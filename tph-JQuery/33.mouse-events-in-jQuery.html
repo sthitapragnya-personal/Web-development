@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="jquery-3.6.0.slim.min.js"></script>
+</head>
+<body>
+
+	<p>
+		hi welcome to my hHTML page !!!!!!
+	</p>
+
+<script type="text/javascript">
+	$("p").css('backgroundColor', 'green');
+	jQuery(document).ready(function($) {
+		$("p").mouseenter(function(event) {
+			$(this).css('backgroundColor', 'red');
+		});
+
+		$("p").mouseleave(function(event) {
+			$(this).css('backgroundColor', 'pink');
+		});
+
+		$("p").mousedown(function(event) {
+			$(this).css('backgroundColor', 'yellow');
+		});
+
+
+		$("p").mouseup(function(event) {
+			$(this).css('backgroundColor', 'purple');
+		});
+	});
+</script>
+</body>
+</html>

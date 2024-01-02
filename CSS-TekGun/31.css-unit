@@ -1,0 +1,31 @@
+-> we use lenth in width , height , margin , padding, font-size, etc.
+
+-> there are 2 types of units :
+--------------------------------------------
+1. Absolute  (it is independent on any other unit)
+2.Relative  (it is dependent on any other unit)
+
+
+Absolute                             Reltive
+----------                        -----------------
+cm                                   em
+mm                                   rem 
+inch                                 vh
+px                                   vw
+pt                                    %
+pc
+
+
+
+1 inch= 96px
+1 inch=72pt
+1 inch=12pc
+
+
+Relative units of css
+------------------------------
+em-> it is related to size of the parent
+rem-> it is related to size of the root element(that is html)
+vh-> 1% of the viewport height
+vw->1% of the viewport width
+%-> relative to parent

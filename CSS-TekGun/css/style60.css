@@ -1,0 +1,67 @@
+/*li{
+	color: red;
+}*/
+
+
+/*
+#list2{
+	color: red;
+}*/
+
+/*.list5{
+	color: red;
+}*/
+
+
+/*a:hover{
+	color: red;
+}*/
+
+
+/*p::first-line{
+	color: red;
+}*/
+
+
+/*a[href="https://www.google.com"]{
+	color: red;
+}*/
+
+
+
+/**{
+	border: 1px solid red;
+}*/
+
+
+/*div a{
+	color: red;
+}*/
+
+
+/*div>a{
+	color: red;
+}*/
+
+
+/*div+a{   works on just sibling
+	color: red;
+}*/
+
+
+/*div+p{  
+	color: red;
+}*/
+
+
+/*div ~ a{
+	color: red;
+}*/
+
+ 
+
+/*h1,p,a{
+	color: orange;
+} */
+
+

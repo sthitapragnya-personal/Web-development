@@ -1,0 +1,17 @@
+#content{
+	width: 70%;
+	background-color:green ;
+	height: 200px;
+	float: left;
+}
+#sidebar{
+	width: 30%;
+	background-color: indianred;
+	height: 200px;
+	height: 100px;
+	float: left;
+}
+#footer{
+	background-color: yellowgreen;
+	clear: both;
+}

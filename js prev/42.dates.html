@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	
+	<script type="text/javascript">
+		var d= new Date(); // here the object of Date class is created
+		document.write(d);
+		document.writeln("<br>"); // it will show day month date year hour:minute:second GMT and IST is shown.
+
+
+		var d= new Date(2019,11,5); // note: u have to write in the same order. if u write in different order the output will change.
+		document.write(d);
+		document.writeln("<br>");  
+
+		var d= new Date(2018,0,5);// if you give 3 values then it considers it as year moth and date.
+		document.write(d);
+		document.writeln("<br>"); 
+
+		var d= new Date(2017,1,5);
+		document.write(d);
+		document.writeln("<br>");   
+
+		var d= new Date(2017,1); // if you give only 2 values then it considers it as year and moth and takes the date by-default as 01.
+		document.write(d);
+		document.writeln("<br>");   
+
+		var d= new Date(2017);// don't write this way.
+		document.write(d);
+		document.writeln("<br>");  
+	</script>
+
+</body>
+</html>

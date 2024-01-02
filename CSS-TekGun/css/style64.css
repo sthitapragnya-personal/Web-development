@@ -1,0 +1,14 @@
+.flex-container{
+	background-color: indianred;
+	display: flex;
+	flex-direction: row;
+	flex-direction: column;
+	flex-direction: row-reverse;
+
+}
+.flex-child{
+	background-color: wheat;
+	margin: 20px;
+	padding: 20px;
+	
+}

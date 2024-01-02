@@ -1,0 +1,53 @@
+/*li:first-child{
+	color: red;
+}*/
+
+
+/*li:last-child{
+	color: orange;
+}*/
+
+
+/*li:nth-child(4){   here the forth child will be highlighted
+	color: blue;
+}*/
+
+
+/*li:nth-child(odd){
+	color: yellowgreen;
+}
+*/
+
+
+/*li:nth-child(even){
+	color: violet;
+}*/
+
+
+/*li:nth-child(2n){
+	color: red;
+}*/
+
+
+/*li:nth-child(2n+1){
+	color: red;
+}*/
+
+
+/*li:nth-child(3n+0){
+	color: red;
+}*/
+
+
+/*li:nth-child(3n+1){
+	color: red;
+}*/
+
+/*li:nth-last-child{
+	color: blue;
+}*/
+
+
+input:focus{
+   background-color: red;
+}

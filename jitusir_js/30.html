@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        "use strict";
+        // function getnumbers(){
+        // var n1=window.document.forms[0].elements[0].value;
+        //   var n2=window.document.forms[0].elements[1].value;
+        //   n1=parseInt(n1);
+        //   n2=parseInt(n2);
+        // }
+      function addition(){
+           //getnumbers();
+           var n1=document.getElementById("num1").value;
+          var n2=document.getElementById("num2").value;
+          n1=parseInt(n1);
+          n2=parseInt(n2);
+          var sum=n1+n2;
+          document.getElementById("rslt1").value=sum;
+      }
+      function substration(){
+        //   getnumbers();
+        var n1=document.getElementById("num1").value;
+          var n2=document.getElementById("num2").value;
+          n1=parseInt(n1);
+          n2=parseInt(n2);
+          var difference=n1-n2;
+          document.getElementById("rslt1").value=difference;
+      }
+      function multiplication(){
+         //  getnumbers();
+         var n1=document.getElementById("num1").value;
+          var n2=document.getElementById("num2").value;
+          n1=parseInt(n1);
+          n2=parseInt(n2);
+          var product=n1*n2;
+          document.getElementById("rslt1").value=product;
+      }
+      function division(){
+        //   getnumbers();
+        var n1=document.getElementById("num1").value;
+          var n2=document.getElementById("num2").value;
+          n1=parseInt(n1);
+          n2=parseInt(n2);
+          var quotient=n1/n2;
+          document.getElementById("rslt1").value=quotient;
+      }
+    </script>
+</head>
+<body>
+    <div>
+       enter number 1: <input id="num1" type="text" placeholder="enter first number"><br>
+       <br>
+       enter number 2: <input id="num2" type="text" placeholder="enter second number"><br><br>
+       <button onclick="addition()">add</button><br>
+       <button onclick="substration()">sub</button><br>
+       <button onclick="multiplication()">mult</button><br>
+       <button onclick="division()">div</button><br>
+       result : <input id="rslt1" type="text" placeholder="result will be displayed here"><br>
+    </div>
+</body>
+</html>

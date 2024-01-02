@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="jquery-3.6.0.slim.min.js"></script> 
+</head>
+<body>
+
+	<!-- basic syntax to use single css property:
+
+	css("propertyname",:value); 
+
+
+-->
+
+	<a href="#" id="anchor">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+	</a>
+	<br>
+
+	<button id="jquerycss"> click me </button>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$("#jquerycss").click(function(event) {
+				$("#anchor").css({ // multiple css
+					"textDecoration":"none",
+					"backgroundColor":"red",
+					"fontSize":"50px",
+					"color":"black",
+				}); 
+
+			});
+		});
+	</script>
+
+</body>
+</html>

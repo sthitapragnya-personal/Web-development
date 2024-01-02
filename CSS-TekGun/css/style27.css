@@ -1,0 +1,32 @@
+div{
+	margin: 100px;
+	padding: 20px;
+	border: 1px solid green;
+	width: 500px;
+	background-color: yellowgreen;
+
+
+	/* box shadow*/   /*it is towards outside the box*/
+	/*-------------------------------------------------------*/
+	box-shadow: 10px 20px grey;  /* x-axis , y-axis , color*/
+	box-shadow: 10px 20px 5px grey;  /* x-axis , y-axis, blur-property, color*/
+    /*box-shadow: 10px 20px 5px grey;*/
+	/*box-shadow: 10px 20px 0px grey;*/
+	box-shadow: 0px 0px 40px 40px lightgray;  /*x-axis,y-axis,blur,sprear-radius,
+	color*/
+  /*  box-shadow: 10px 12px 15px 3px grey;*/
+
+
+   /* box shaddow towards inside*/
+   /*--------------------------------------------*/
+   /*box-shadow: 10px 20px 15px 3px grey inset;*/
+
+
+
+   /*if i want that there is multiple box-shadow*/
+   /*---------------------------------------------------------*/
+   /*box-shadow: 10px 12px 15px 3px orange,  -10px -20px 15px 3px red ;*/
+  /* box-shadow: 10px 12px 15px 3px orange,  -10px -20px 15px 3px red inset;*/
+
+   /* similarly in many various designs the shadows can be applied*/
+}

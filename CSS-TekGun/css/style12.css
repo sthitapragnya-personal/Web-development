@@ -1,0 +1,43 @@
+#bg{
+	background-image: url("images/104.jpg");
+	background-repeat: repeat;  /* it is same as default*/ /*it decides whether 
+	the background iamge will repeat or not*/
+	background-repeat: no-repeat;
+	/*background-repeat: repeat-x;*/
+	/*background-repeat: repeat-y;*/
+	
+
+	/*background-position: right top; */ 
+	/* it decides the position of the background*/
+	/*background-position: right bottom;*/
+	/*background-position: left top;*/
+	/*background-position: left bottom;*/
+	/*background-position: center;*/
+	/*background-position: center center;*/
+
+	/*background-position: 500px 30px; */ /*500px from y-axis and 30px from x-axis*/
+	/*background-position: 50% 50%; */  /* 50% of height and 50 % of the width*/
+
+	background-size: 500px 1000px; /* 500px in x-xis and 1000px in y-axis*/
+	 /*it decides the size of the background image*/
+	/*background-size: 50% 50%;*/  /* 50% of width and 50% of height */
+	/*background-size: 100% 100%;*/ /* 100% width and 100% height 
+	/* idhar image strech ho jata he */
+
+
+	background-size: cover;  /* idhar thoda thoda background image kat jata he ye
+	tabhi use karein jab background image important na ho*/
+	background-size: contain;  /* ye katta nahin he but ratio wise rehta he 
+	pura background fill nahin hota he */
+	background-size: auto; /* means the original size of the image */
+	background-size: fill;
+
+	background-attachment: scroll; /* it is used to fix the background or not fix it */
+     background-attachment: fixed;
+
+
+   /* single line mein ye sare property likha ja sakta he */
+   /*background: red url("images/104.jpg") no-repeat fixed center;*/ /* idhar order of
+   the elements same rehta he */
+
+}

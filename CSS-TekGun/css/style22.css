@@ -1,0 +1,7 @@
+#text{
+	border: 1px solid red;
+	width: 100px; 
+	height: 100px;
+	writing-mode: vertical-lr;
+	writing-mode: vertical-rl;
+}

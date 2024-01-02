@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<!-- i.e, how to print the entire page and how to print a perticular section -->
+
+	<div id="div1">
+		Div 1 content is here.
+		<button onclick="myfun('div1')">Div 1</button>
+	</div>
+	<div id="div2">
+		Div 2 content is here.
+		<button onclick="myfun('div2')">Div 2</button>
+	</div>
+	<div id="div3">
+		Div 3 content is here.
+		<button onclick="myfun('div3')">Div 3</button>
+	</div>
+
+	<button onclick="mywholepage()"> print whole page</button>
+
+	<script type="text/javascript">
+
+		function mywholepage(){
+            window.print(); // it prints the entire web page
+		}
+
+		function myfun(paravalue){ // here yhe paravalue stores the id of the element from which this function is called.
+			var backup=document.body.innerHTML;// everything writen in the webpage is copied to backup.
+			var divcontent=document.getElementById(paravalue).innerHTML;
+			document.body.innerHTML=divcontent;
+           window.print();
+           document.body.innerHTML=backup;
+		}
+	</script>
+
+</body>
+</html>

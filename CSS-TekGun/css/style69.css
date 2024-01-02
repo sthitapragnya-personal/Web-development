@@ -1,0 +1,18 @@
+.flex-container{
+	background-color: indianred;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+
+	justify-content: space-around;
+	justify-content: space-between;
+
+}
+.flex-child{
+	background-color: wheat;
+	margin: 20px;
+	padding: 20px;
+
+	width: 100px;
+	text-align: center;
+}

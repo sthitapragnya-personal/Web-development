@@ -1,0 +1,9 @@
+ ->responsive means the website is visible in a better way in mobile,tablet , monitor, etc.
+
+ -> so note : you shoud always do responsive webdesign.
+
+ ->if you are not using any css frameworks and u want to make the website responsive the you need 3 things :
+ ----------------------------------------------------------------------------
+ 1.View port meta tag
+ 2.@mediaquery
+ 3.making the images and videos responsive

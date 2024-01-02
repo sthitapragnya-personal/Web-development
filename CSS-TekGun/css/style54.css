@@ -1,0 +1,50 @@
+#div1{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	margin: 100px;
+	/*transition-property: width;*/
+	/*transition-duration: 1s;*/
+
+	/*transition-property: background-color;*/
+	/*transition-duration: 1s;*/
+    
+
+    /* using multiple transitions together*/
+    /*--------------------------------------------*/
+   /* transition-property: width, background-color;*/
+    /*transition-duration: 1s;*/
+
+
+   /* transition-property:all;*/
+    /*transition-duration: 1s;*/
+
+
+   /* transition-property: width;*/
+    /*transition-duration: 5ms;*/
+    /*transition-duration: 500ms;*/
+    /*transition-duration: 5000ms;*/
+
+
+    /*transition-property: width;*/
+    /*transition-delay: 5s; */ /* means it will start afyter 5 seconds*/
+
+   /* agar hum chahte hein ki speed diff rahe change mein 
+   like pehle slow fir speed then fir slow etc.*/
+    /*transition-duration: 3s;*/
+    /*transition-timing-function: ease;*/
+    /*transition-timing-function: ease-in;*/
+    /*transition-timing-function: ease-out;*/
+    /*transition-timing-function: ease-in-out;*/
+
+
+    /*transition shortcut*/
+    /*---------------------------------*/
+    /*transition: property,duration,timing-function,delay;*/
+    /*transition: width,5s;*/
+}
+#div1:hover{
+   width: 200px;
+   background-color: green;
+   /*width: 200px;*/
+}

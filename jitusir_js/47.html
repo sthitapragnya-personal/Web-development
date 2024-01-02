@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.username="sthita"; // here a variable is declared outside
+        function showmsg(){
+            var username="shubham";// it shadows the outer variable
+            document.write(username);// here it prints the inner variable
+            document.write("<br>"+window.username); // here it prints the outer variable
+        }
+    </script>
+</head>
+<body>
+    <script>
+        showmsg()
+        document.write("<br>"+window.username);// prints outer variable
+        document.write("<br>"+username);// prints outer variable
+    </script>
+</body>
+</html>

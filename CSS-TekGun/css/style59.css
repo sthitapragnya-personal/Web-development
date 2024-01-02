@@ -1,0 +1,85 @@
+#div1{
+  width: 70%;
+  float: left;
+  background-color: lawngreen;
+}
+#div2{
+  width: 30%;
+  float: left;
+  background-color: rosybrown;
+}
+
+/*h1{
+	font-size: 80px;
+}*/
+
+@media screen and (max-width: 768px){
+	#div1{
+		width: 50%;
+	}
+	#div2{
+		width: 50%;
+	}
+}
+
+
+
+@media screen and (max-width: 400px){
+	#div1{
+		width: 100%;
+	}
+	#div2{
+		width: 100%;
+		color: white;
+		background-color: black;
+	}
+}
+
+
+@media screen and (min-width: 400px){
+	#div1{
+		width: 100%;
+	}
+	#div2{
+		width: 100%;
+		color: white;
+		background-color: black;
+	}
+}
+
+
+/*@media screen and (min-width: 400px) and (max-width: 768px){
+	#div1{
+		width: 100%;
+	}
+	#div2{
+		width: 100%;
+		color: white;
+		background-color: black;
+	}
+}*/
+
+/* i have doubt in this code of using 'or'*/
+/*@media screen and (min-width: 400px) or (max-width: 768px){  
+	#div1{
+		width: 100%;
+	}
+	#div2{
+		width: 100%;
+		color: white;
+		background-color: black;
+	}
+}
+*/
+
+
+/* note : there is a trick to make the images and the videos responsive*/
+/*--------------------------------------------------------------------------*/
+ /* img{
+  	width: 100%;
+  	height: auto;
+  }
+  video{
+  	width: 100%;
+  	height: auto;
+  }*/

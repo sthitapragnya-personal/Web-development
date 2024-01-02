@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function SubmitClick(){
+            var qty=parseFloat(document.getElementById("Qty").value);
+            document.querySelector("p").innerHTML="you selected "+qty+" with one extra offer "+(qty+1);
+            document.getElementsByClassName("#p2").innerHTML="hello "+qty;
+        }
+    </script>
+</head>
+<body>
+    Qty
+    <select id="Qty">
+       <option>1.2</option>
+       <option>2.4</option>
+       <option>3.6</option>
+       <option>4.8</option>
+    </select>
+    <button onclick="SubmitClick()">submit</button>
+    <p></p><br>
+    <p class="p2"></p>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+	<script src="jquery-3.6.0.min.js"></script>
+
+	<!-- <script src="jquery-ui.min.js"></script>  -->
+	<style type="text/css">
+		h1{
+			text-align: center;
+			text-transform: uppercase;
+		}
+		.animatediv{
+			width: 98px;
+			height: 98px;
+			position: relative;
+			background-color: red;
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+<h1>jQuery animate method</h1>
+<h2>The animate() method here perfoms a custom animation of a set of css properties</h2>
+
+<button id="btnclick"> show magic</button>
+<br><br>
+
+<div class="animatediv"> </div>
+
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		$("#btnclick").click(function() {
+			$(".animatediv").animate({
+				left : 500
+			});
+			$(".animatediv").animate({
+				top : 200
+			});
+			/*$(".animatediv").animate({
+				left : 0,
+				top : 200
+			});*/
+			/*$(".animatediv").animate({
+				bottom : 200
+			});*/
+		});
+	});
+</script>
+</body>
+</html>

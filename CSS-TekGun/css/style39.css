@@ -1,0 +1,24 @@
+#div1{
+   background-color: blueviolet;
+   width: 600px;
+   height: 150px;
+}
+
+#div2{
+   background-color: chocolate;
+   width: 600px;
+   height: 150px;
+   padding: 50px;
+   border: 10px solid black;
+
+   /* note :  here the padding and the border is 
+   added to the height and
+    width but it is added outside the height and width*/
+
+
+    box-sizing: content-box;  /* here the content-size is fixed*/
+    /* and the padding border are added outside the content-size*/
+
+    box-sizing: border-box;  /* in this case 
+    the content size decreases*/
+}

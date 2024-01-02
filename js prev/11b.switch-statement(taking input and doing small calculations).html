@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>select the first number</h1>
+	<form>
+    <input type="text" name="" id="first">
+    <br>
+    <br>
+    <h1>select the second number</h1>
+  
+    <input type="text" name="" id="second">
+    <br>
+    <br>
+    <h1>select any one function</h1>
+    <ul>
+    	<li>add</li>
+    	<li>sub</li>
+    	<li>mult</li>
+    	<li>divide</li>
+    </ul>
+  
+    <input type="text" name="" id="calculation">
+    <br>
+    <button onclick="myfun()">Click Me</button>
+<form>
+    <script type="text/javascript">
+    	
+    	function myfun(){
+    		var x=document.getElementById("calculation").value;
+
+    		switch (x) {
+    			case "add":
+    				var a=document.getElementById("first").value;
+    				var b=document.getElementById("second").value;
+    				var c=a+b;
+    				document.write(c);
+    				break;
+    				case "sub":
+    				var a=document.getElementById("first").value;
+    				var b=document.getElementById("second").value;
+    				var c=a-b;
+    				document.write(c);
+    				break;
+    				case "mult":
+    				var a=document.getElementById("first").value;
+    				var b=document.getElementById("second").value;
+    				var c=a*b;
+    				document.write(c);
+    				break;
+    				case "divide":
+    				var a=document.getElementById("first").value;
+    				var b=document.getElementById("second").value;
+    				var c=a/b;
+    				document.write(c);
+    				break;
+    			default:
+    				document.write("invalid calculation option");
+    				break;
+    		}
+
+    	}
+    </script>
+</body>
+</html>

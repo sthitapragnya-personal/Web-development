@@ -1,0 +1,25 @@
+body{
+	background-image: linear-gradient(black,white,black);
+	
+}
+p::first-letter{
+	color: red;
+	font-size: 60px;
+}
+p::first-line{
+	color: orange;
+	font-size: 40px;
+}
+
+h1::before{
+	content: url(images/arrow-up.png);
+}
+
+h1::after{
+	content: " added after"
+}
+
+::selection{
+	color: red;
+	background-color: yellow;
+}

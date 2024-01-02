@@ -1,0 +1,25 @@
+.flex-container{
+	background-color: indianred;
+	display: flex;
+}
+.flex-child{
+	background-color: wheat;
+	margin: 20px;
+	padding: 20px;
+
+	width: 100px;
+	text-align: center;
+}
+
+#one{
+  flex-grow: 1;
+  flex-grow: 2;
+}
+#two{
+  flex-grow: 1;
+  flex-grow: 4;
+}
+#three{
+  flex-grow: 1;
+  flex-grow: 3;
+}

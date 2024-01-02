@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="jquery-3.6.0.slim.min.js"></script> 
+</head>
+<body>
+
+	<p class="test" style="background-color: #0CF8CD; color: white;">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<br>
+	<p class="test" style="background-color: #0CBFF8; color: white;">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<br>
+
+	<ul>
+		
+		<li style="background-color: #F80C70; color: white;">
+			voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</li>
+
+		<li style="background-color: #D40CF8; color: white;">
+			voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</li>
+	</ul>
+
+	<button id="hideandseek" style="background-color: #0C17F8; color: white; border: none; padding: 10px;">click me</button>
+
+	<script type="text/javascript">
+		
+     // to hide the first 2 <p> tags when we click the button.
+		jQuery(document).ready(function($) {
+			$("#hideandseek").click(function(event) { // id selector
+				$("p").hide(); // name selector
+			});
+		});
+	</script>
+
+</body>
+</html>

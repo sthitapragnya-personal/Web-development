@@ -1,0 +1,30 @@
+body{
+	border: 1px solid red;
+	height: 1000px;
+	background-color: red;
+}
+
+#div1{
+	background-color: blueviolet;
+	height: auto;   /*it is by default*/
+	width: auto;  /* it is by default*/
+	height: 500px;
+	width: 1000px;
+
+	height: 30%;  /* it is 30% of the height of the element in which
+	 the div1 is present*/
+	width:70%;   /* it is 70% of the width of the element in which
+	 the div1 is present*/
+
+	max-width:500px; 
+	 max-height:300px;
+	 min-height:50%; /* it takes the % of the parent element*/
+	 min-width:1%;  /* it takes the % of the parent element*/
+
+
+	 width: 50vmin;
+	 height: 50vmin;
+
+	 /*width: 50vmax;
+	 height: 50vmax;*/
+}

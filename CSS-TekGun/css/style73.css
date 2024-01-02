@@ -1,0 +1,28 @@
+.flex-container{
+	background-color: indianred;
+	display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    height: 70vh;
+}
+.flex-child{
+	background-color: wheat;
+	margin: 20px;
+	padding: 20px;
+
+	width: 100px;
+	text-align: center;
+}
+
+#one{
+  order: 3;
+}
+#two{
+  order: 1;
+}
+#three{
+  order: 2;
+}

@@ -1,0 +1,29 @@
+a{
+	text-decoration: none;
+	color: pink;
+}
+
+/*a:link{
+   color: red;
+}*/
+
+a:visited{
+   color: pink;
+}
+
+a:hover{
+	color:orange; 
+}
+
+a:active{
+	color: blue;
+}
+
+
+/*
+whenever u use hover alone then it is ok but if u are using it with link 
+and visited then link and visited should be present above hover.
+
+and active state should be always present at the last.
+
+*/

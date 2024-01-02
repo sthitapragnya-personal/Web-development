@@ -1,0 +1,8 @@
+<!-- the text colors are -->
+<!-- ------------------------------------------ -->
+.text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger, .text-white, .text-dark, .text-light,
+
+
+<!-- the background colors are -->
+<!-- ------------------------------------------ --> 
+.bg-primary, .bg-success, .bg-info, .bg-danger, .bg-secondary, .bg-daek, .bg-warning, .bg-light, 

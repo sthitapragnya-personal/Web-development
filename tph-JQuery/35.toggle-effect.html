@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="jquery-3.6.0.slim.min.js"></script> 
+	<style type="text/css">
+		.main{
+			display: flex;
+		}
+		.red,.blue{
+			width: 100px;
+			height: 100px;
+			border: 1px solid black;
+		}
+		/*.blue{
+			width: 100px;
+			height: 100px;
+			border: 1px solid black;
+		}*/
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="red"></div>
+		<div class="red"></div>
+		<div class="red"></div>
+		<div class="blue"></div>
+		<div class="blue"></div>
+		<div class="blue"></div>
+	</div>
+
+	<button id="btn-id">show / hide</button>
+
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".red").css('backgroundColor', 'red');
+		$(".blue").css('backgroundColor', 'blue');
+ 
+
+         // toggle() function is the best alternative for hide and show.
+		$("#btn-id").click(function(event) {
+			$(".red,.blue").toggle("slow"); // slow is not working
+		    
+		});
+	});
+</script>
+</body>
+</html>

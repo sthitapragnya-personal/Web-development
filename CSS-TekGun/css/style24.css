@@ -1,0 +1,29 @@
+@font-face{
+	font-family: ricedal;
+	src:url('font/Junitta.ttf');
+}
+
+/*@font-face{
+	font-family: ;
+	src:url('');
+}*/
+h1{
+     /*font-family: 'Raleway', sans-serif;*/
+    /* font-family: ricedal; */
+    /*font-family: 'Poppins', sans-serif;*/
+}
+p{
+	/*font-size: 30px;
+	font-weight: bold;
+	font-weight: bolder;*/
+	/*font-weight: 900;*/  
+	/* it is like 100 , 200 , 300 , 400, ...... upto 900*/
+	/*font-style: italic;*/
+
+	font-variant: small-caps;  
+	/* it converts all the small letters into capital*/
+
+	/*font-family: 'Poppins', sans-serif;*/
+	/*font-weight: 100px;*/
+	/*font-style: italic;*/
+}

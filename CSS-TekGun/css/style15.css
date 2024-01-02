@@ -1,0 +1,47 @@
+#border{
+	border-style: solid;
+	/*border-style: dotted;*/
+	/*border-style: dashed;*/
+	/*border-style: double;*/
+	/*border-style: groove;*/  /*it is just like frame*/
+	/*border-style: outset;*/ /* it is towards outside*/
+	/*border-style: inset;*/ /* it is towards inside*/
+	/*border-style: ridge;*/
+	/*border-style: none;*/ /* it is by default*/
+
+	/*border-style: solid dashed none dotted;*/ /*that is in clock wise direction*/
+	/*border-style: solid dotted;*/ /* top-bottom  left-right*/
+	/*border-style: solid dotted none;*/  /* top (left right) bottom*/
+
+	/*border-width: 5px;*/
+	/*border-width: 5px 10px;*/
+	/*border-width: 5px 20px 40px;*/
+	/*border-width: 5px 10px 20px 30px;*/
+
+	/*border-color: red;*/
+	/*border-color: red yellow;*/
+	/*border-color: red yellow green;*/
+	/*border-color: red yellow green blue;*/
+
+	/*border: solid red 100px;*/
+
+
+	/*border-left: solid red 10px;*/
+	/*border-right: dashed blue 20px;*/
+	/*border-top: dotted green 30px;*/
+	/*border-bottom: double yellow 40px;*/
+
+	/*border-radius: 2px;*/
+	/*border-radius: 20px;*/
+	/*border-radius: 200px;*/
+	/*border-radius: 100%;*/
+	/*border-radius: 50%;*/
+
+	/*border-radius: 10px 20px 30px 40px;*/
+
+	/*border-top-right-radius: */
+	/*border-bottom-left-radius:50px;*/
+	/*border-top-right-radius:100px;*/
+
+}
+

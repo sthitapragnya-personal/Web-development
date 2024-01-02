@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="jquery-3.6.0.slim.min.js"></script>
+</head>
+<body>
+
+	<h1>focus() v/s blur()</h1>
+
+	<input type="text" name="" id="textbox">
+	<span id="showdata">welcome</span>
+	<span id="showdataforblur">takecare</span>
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("span").css('display','none');
+		$("#textbox").focus(function() {
+			$("#showdata").css('display','inline').fadeOut(4000);
+		})
+
+		$("#textbox").blur(function() {
+			$("#showdataforblur").css('display','inline').fadeOut(4000);
+		})
+	})
+</script>
+</body>
+</html>

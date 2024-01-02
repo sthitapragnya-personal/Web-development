@@ -1,0 +1,11 @@
+img{
+	width: 100px;
+	height: auto;
+	padding: 20px;
+}
+#image1{
+  float: right;
+}
+#image2{
+  float: left;
+}

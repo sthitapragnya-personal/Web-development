@@ -1,0 +1,70 @@
+
+	<script type="text/javascript">
+		
+       var array=["karan","arjun","ramesh"];
+       var length=array.length;
+       alert(length);
+       document.write("<br>");
+       document.writeln(length); // writeln gives bydefault space
+       document.writeln(length+1);
+       document.write("<br>");
+
+       array.sort(); // it sorts the array in ascending order
+       document.writeln(array);
+       document.write("<br>");
+
+       array.push("suresh");// it adds a new element to the end of the array.
+        document.writeln(array); 
+        document.write("<br>");
+
+        array.pop();//it removes the last element of the array.
+         document.writeln(array);
+         document.write("<br>");
+
+
+         array.shift();//to delete the first element of the array.
+         document.writeln(array);
+         document.write("<br>");
+
+
+         array.unshift("zoravar");//to add a element in the beggening of the array.
+         document.writeln(array);
+         document.write("<br>");
+
+
+         array.reverse();// to reverse the array elements
+         document.writeln(array);
+         document.write("<br>");
+
+
+         var check= Array.isArray(array);
+         document.writeln(check);
+         document.write("<br>");
+
+
+         var x=1;
+         check= Array.isArray(x);
+         document.writeln(check);
+         document.write("<br>");
+
+
+         var y= ["karan","arjun","ramesh"];
+         document.write(array.concat(y));
+         document.write("<br>");
+
+         document.writeln(length);
+         document.write("<br>");
+
+
+          document.write(array);// it prints the entire array.
+          document.write("<br>");
+
+         document.write(array.indexOf("ramesh"));
+         document.write("<br>");
+         document.write(array.indexOf("arjun"));// it is not a elemet of  array so it will show -1.
+         document.write("<br>");
+         document.write(array.indexOf("karan"));
+         document.write("<br>");
+
+	</script>
+

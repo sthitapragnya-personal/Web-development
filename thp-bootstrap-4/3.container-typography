@@ -1,0 +1,22 @@
+-> the .container class provides a responsive fixed width container.
+->i.e, it has left and right margin.
+
+
+
+->the .container-fluid provides full width container , spanning the entire ->width of the viewport.
+it doen't has left and right margin.
+
+
+
+->Bootstrap 4 Typography
+-------------------------------
+
+typograpghy means to change the way a text looks i.e, to change the way of writing a perticular font/text.
+
+
+Bootstrap 4 uses a default font-size of 16px, and its line height is 1.5.
+
+The default family is "Helvetica Neue" , Helvetica, Arial, sans-serif
+
+In addition , all <p> elements have margin-top:0px  and  margin-bottom:1rem
+(16px by default).

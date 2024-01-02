@@ -1,0 +1,16 @@
+p{
+	color: red;
+	font-size: 40px;
+	background-color: yellow;
+}
+#p3{
+   color: white;
+	font-size: 80px;
+	background-color: pink;	
+}
+.green-text{
+	color: green;
+}
+#h{
+	background-color: brown;
+}

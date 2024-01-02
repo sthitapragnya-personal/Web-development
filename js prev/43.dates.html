@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+	//here we will only get the date
+	//-------------------------------------
+		var dateobj=new Date();
+
+		var month=dateobj.getUTCMonth()+1;
+		var day=dateobj.getUTCDate();
+		var year=dateobj.getUTCFullYear();
+
+		document.write(year+"/"+month+"/"+day); // it prints todays date.
+	</script>
+	<!-- note : UTC stands for universal coordinated time and it is set by the world time standard. -->
+
+</body>
+</html>

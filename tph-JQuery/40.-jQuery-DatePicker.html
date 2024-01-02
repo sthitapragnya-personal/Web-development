@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+	<!-- <script src="jquery-3.6.0.min.js"></script> -->
+	<script src="jquery-ui.min.css"></script> 
+	<!-- <script src="jquery-ui.min.js"></script>  -->
+	<style type="text/css">
+		.form-control{
+			width: 70%;
+			height: 30px;
+		}
+	</style> 
+</head>
+<body>
+
+	<h1 style="text-align: center; text-transform: uppercase;
+	text-decoration: underline;">Enter your biodata</h1>
+
+	<!-- <form>
+		<fieldset>
+			<legend align="bottom" style="text-transform: uppercase; font-size: 1.6rem;">Biodata</legend>
+
+			Name: <input type="text" name="" size="30" class="form-control" placeholder="username"><br><br>
+
+			E-mail: <input type="email" name="" size="30" class="form-control" placeholder="abcd@gmail.com"><br><br>
+
+			D.O.B: <input type="date" name="" size="30" class="form-control"><br><br>
+
+			<input type="submit" name="">
+		</fieldset>
+	</form>
+ -->
+
+		<form>
+		<fieldset>
+			<legend align="bottom" style="text-transform: uppercase; font-size: 1.6rem;">Biodata</legend>
+
+			Name: <input type="text" name="" size="30" class="form-control" placeholder="username"><br><br>
+
+			E-mail: <input type="email" name="" size="30" class="form-control" placeholder="abcd@gmail.com"><br><br>
+
+			D.O.B: <input type="text" name="" size="30" class="form-control" id="datepicker"><br><br>
+
+			<input type="submit" name="">
+		</fieldset>
+	</form>
+
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery-ui.min.js"></script> 
+<script type="text/javascript">
+	$(document).ready(function($) {
+		$("#datepicker").datepicker({
+            dateFormat:"dd-mm-yy"
+		});
+	});
+</script>
+</body>
+</html>

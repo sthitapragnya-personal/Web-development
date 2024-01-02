@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function DeleteClick(){
+            flag=confirm("delete record\nrecord will be deleted\nare you sure");
+            if (flag==true) {
+                alert("message is deleted succesfully..");
+            } else {
+                alert("message not deleted..");
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="DeleteClick()">click</button>
+</body>
+</html>

@@ -1,0 +1,88 @@
+#text{
+	width: 500px;
+	height: 400px;
+	border: 1px solid black;
+
+	/* text-color*/
+	/*---------------------------*/
+	/*color: red;*/  /* to change the color of the text*/
+	/*color: blue;*/  /* to change the color of the text*/
+
+	/*text-alignment*/
+	/*--------------------------*/
+	/*text-align: left; */  /* it is to keep the position of the text and 
+	it is left by default */
+	/*text-align: right*;/   /* to kkep the text from right*/
+	/*text-align: center;*/   /* to keep the text in center*/
+	/*text-align: justify;*/   /* to properly keep the text in the best visible way*/
+
+
+    
+	/*text-align: top;  */ /*not possible*/
+	/*text-align: bottom;*/  /* not possible*/
+
+
+     /*text-horizontal-direction*/
+     /*---------------------------------------*/
+    /*direction: ltr;*/  /* it is left to right and it is by default*/
+	/*direction: rtl;*/  /* it is right to left*/ 
+    
+
+    /*text-decorations*/
+    /*--------------------------*/
+    /*text-decoration: underline;*/  /* underline a text*/
+    /*text-decoration: overline;*/ /* a line above the text*/
+    /*text-decoration: line-through;*/ /* it is line through the text*/
+    /*text-decoration: none;*/ /* no line and it is default*/
+
+
+    /*text-transform*/
+   /*---------------------------------*/
+  /* text-transform: uppercase;*/  /* to make all the letters capital*/
+    /*text-transform: capitalize; */  /* to make all the first letters capital*/
+   /* text-transform:lowercase;*/  /* to make all the letters small*/
+
+   /*line-height*/
+   /*-----------------------*/
+ /*  line-height: 30px;*/  /* space between each line*/
+  /*line-height: 60px;*/
+  /*line-height: 0px;*/
+
+
+   /* text-indent*/
+   /*-------------------------*/
+   /*text-indent: 50px; *//*it is the space between the border and the first word*/
+
+   /*letter-spacing*/
+   /*---------------------------*/
+   /*letter-spacing: 10px; */ /* space between each letter*/
+   /*letter-spacing: 30px;*/
+   /*word-spacing: 10px;*/  /* space betwwen 2 words*/
+
+
+   /*white-space*/
+   /*--------------------------*/
+  /* white-space: pre; */ /* it gives extra space when we break/or give space in the text */
+  /* white-space: nowrap;*/  /* it will keep the entire text in a single line and 
+   will give no extra space */
+  /* white-space: normal;*/  /* it gives no extra space */ /* it is by default*/
+
+
+
+   /*word-wrap property*/
+   /*------------------------------------------*/
+   /*word-wrap: break-word;*/ /*if the word length is more than the length of the 
+   container then it helps to break the word or else the word will extend 
+   the container*/
+   /*word-break: break-all;*/  /* it has the same function as it is of word-wrap*/
+
+}
+img{
+	/*text-vertical-directions*/
+	/*--------------------------------------*/
+	border: 1px solid red;
+	vertical-align: top;
+	vertical-align: middle;
+	vertical-align: bottom; /* it is by default*/
+}
+

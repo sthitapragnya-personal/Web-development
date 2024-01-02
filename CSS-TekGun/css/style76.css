@@ -1,0 +1,22 @@
+.flex-container{
+	background-color: indianred;
+	display: flex;
+}
+.flex-child{
+	background-color: wheat;
+	margin: 20px;
+	padding: 20px;
+
+	width: 100px;
+	text-align: center;
+}
+
+#one{
+  flex-basis: 300px;
+}
+#two{
+  
+}
+#three{
+  
+}

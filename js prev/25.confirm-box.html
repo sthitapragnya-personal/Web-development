@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		function myfun(){
+		var userconfermation=confirm("do you want to visit the website");
+
+		if (userconfermation==true) {
+			window.open("https://www.google.com/"); // it redirects from one page to another
+			return true;
+		}
+		else {
+			document.write("user doesn't want to visit the website");
+			return false;
+		}
+	}	
+	</script>
+
+	<input type="button" name="" onclick="myfun()" value="click me">
+
+</body>
+</html>

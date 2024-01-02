@@ -1,0 +1,6 @@
+#bg{
+	background-color: yellow;
+	background-image: url(images/next.png), url("images/prev.png");
+	background-position: top left, top right;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,31 @@
+<!-- example on functions  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script> 
+		function showMessage(from, text)     // arguments: from, text (formal)
+		{
+		  //alert(from + ': ' + text);
+          document.write(from + " : " + text + "<br>");
+		}
+
+	function myfun()
+	{
+		let a="Ram";
+		let b="What's up?";
+		showMessage(a, b);  // calling2  (a,b are actual arguments)
+	}
+   </script>
+</head>
+<body>
+    <h2> Demo on Arguments </h2>
+   <script> 
+		showMessage('Siva', 'Hello!'); // calling 1
+		myfun();
+   </script>
+</body>
+</html>

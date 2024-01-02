@@ -1,0 +1,25 @@
+.flex-container{
+	background-color: indianred;
+	display: flex;
+	/*flex-wrap: nowrap;*/
+	/*justify-content: center;*/
+
+	justify-content: space-around;
+	/*justify-content: space-between;*/
+
+    height: 400px;
+
+    align-items: stretch; /* it is by default*/
+    align-items: center;
+    align-items: flex-start;
+    align-items: flex-end;
+
+}
+.flex-child{
+	background-color: wheat;
+	margin: 20px;
+	padding: 20px;
+
+	width: 100px;
+	text-align: center;
+}

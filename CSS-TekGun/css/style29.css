@@ -1,0 +1,21 @@
+#div1{
+	background-color: green;
+	height: 200px;
+	width: 500px;
+	margin-bottom: -110px;
+	opacity: 0.3;
+	opacity: 1;
+	float: left;
+}
+
+#div2{
+	clear: both;
+	background-color: red;
+	height: 400px;
+	width: 200px;
+	margin-top: -60px;
+	opacity: 0.5;
+	opacity: 0.9;
+	opacity: 1;
+
+}

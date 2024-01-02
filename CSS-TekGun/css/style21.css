@@ -1,0 +1,8 @@
+#shadow{
+   font-size: 80px;
+   text-shadow: 5px 10px 5px red;  /* horizontal-shadow  vertical-shadow  
+   blur-amount  and  color  */
+   /*text-shadow: 5px -10px 5px red;*/
+   text-shadow: 5px -10px 0px red;
+  /* text-shadow: 5px 10px 6px red;*/
+}

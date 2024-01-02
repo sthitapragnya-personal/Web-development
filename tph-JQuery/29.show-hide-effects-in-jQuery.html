@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="jquery-3.6.0.slim.min.js"></script> 
+	<style type="text/css">
+		.main{
+			display: flex;
+		}
+		.red,.blue{
+			width: 100px;
+			height: 100px;
+			border: 1px solid black;
+		}
+		/*.blue{
+			width: 100px;
+			height: 100px;
+			border: 1px solid black;
+		}*/
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="red"></div>
+		<div class="red"></div>
+		<div class="red"></div>
+		<div class="blue"></div>
+		<div class="blue"></div>
+		<div class="blue"></div>
+	</div>
+
+	<button id="btn-id">show / hide</button>
+<p>
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium accusamus voluptates aut laborum corporis illo, voluptas asperiores, voluptatem at molestiae reprehenderit doloremque neque nulla quam eum? Maxime consectetur sit voluptatum nostrum ipsum molestias assumenda deleniti debitis quidem optio facere culpa nam porro necessitatibus eum, atque, exercitationem pariatur inventore consequuntur ipsam.
+</p>
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".red").css('backgroundColor', 'red');
+		$(".blue").css('backgroundColor', 'blue');
+
+		$("#btn-id").click(function(event) {
+			$(".red,.blue").hide("slow"); // slow is not working
+		    
+		});
+		$("#btn-id").dblclick(function(event) {
+			$(".red,.blue").show("slow"); // slow is not working
+		    
+		});
+	});
+</script>
+</body>
+</html>

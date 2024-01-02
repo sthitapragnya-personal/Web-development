@@ -1,0 +1,40 @@
+table{
+	border: 1px solid black;
+	border-collapse: collapse;  /* to collapse all the borders*/
+    empty-cells: hide;
+
+    table-layout: auto; /* it is by default*/
+    table-layout: fixed;  /* here the width is equally divided*/
+    width: 400px;  /* it is first checked by inspect then 
+    the width id given comparatively less*/
+
+    /*table-layout: auto;*/
+    /*table-layout: fixed;*/
+    width: 100%;
+}
+caption{
+	border: 1px solid black;
+	/*caption-side: bottom; */ /* to bring the caption to the bottom of the table*/
+}
+tr{
+	border: 1px solid black;  /* it doesnt take border*/
+
+}
+th{
+    border: 1px solid black;
+    height: 40px;
+    padding: 20px;
+    /*text-align: right;*/
+
+}
+td{
+    border: 1px solid black;
+    height: 35px;
+    padding: 10px;
+    /*text-align: right;*/
+    /*text-align: left;*/
+    /*text-align: center;*/
+    /*vertical-align: bottom;*/
+   /* vertical-align: top;*/
+    /*vertical-align: middle;*/
+}

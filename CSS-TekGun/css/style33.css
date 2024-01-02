@@ -1,0 +1,29 @@
+.overflow{
+	background-color: whitesmoke;
+	background-image: linear-gradient(whitesmoke, green);
+	border: 1px solid grey;
+	width: 500px;
+	height: 300px;
+
+	/*overflow: visible;*/ /* it is by default */
+	/*overflow: hidden;*/  /* here the extra content outside the 
+	container won't be visible*/
+
+	/*overflow: scroll; */ /* it will provide a scroll-bar whether
+	 the content is more or less */
+
+
+     /* to only get a scroll bar in the y-axis*/
+	 overflow-x: hidden;
+	 overflow-y: scroll; 
+
+
+	 /* to get a scroll-bar in the x-axis*/  /* and this case is not possible*/
+	 /*overflow-y: hidden;
+	 overflow-x: scroll;*/ 
+
+
+	 /*overflow: auto; */ /* it provides a scroll-bar only when the content is 
+	 more than the container size and if the content is less than the container 
+	 size then it do not provides a scroll-bar*/
+}
